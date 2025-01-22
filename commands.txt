@@ -1,0 +1,13 @@
+jenkins vm: jenkins, helm, docker, datree helm plugin
+k8s vm: docker, kubectl, minikube + sudo usermod -aG docker $USER
+sonarqube vm: as docker container + sudo usermod -aG docker $USER
+nexus vm or dockerhub
+
+jenkins job from SCM 
+clone repo to local
+create jenkinsfile + add sonarqube plugins in jenkins
+
+configure sonarqube in jenkins
+
+./gradlew build
+./gradlew sonarqube
